@@ -1,2 +1,2 @@
 # Expenses-tracker
-This is very tool stuff
+This is very Cool stuff
