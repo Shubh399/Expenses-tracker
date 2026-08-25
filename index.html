@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <div class="head">
+          <h1>Expense Tracker</h1>
+        </div>
+        <div class="sheet">
+          <div class="balance">
+            <h3>Your Balance</h3>
+            <h1 id="Total_Balance">$0.00</h1>
+          </div>
+          <div class="balance_sheet">
+            <div class="income">
+              <h3>Income</h3>
+              <h2 id="Total_Income">$0.00</h2>
+            </div>
+            <div class="expenses">
+              <h3>Expenses</h3>
+              <h2 id="Total_expenses">$0.00</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <div class="left">
+            <div class="transaction">
+                <h3>Transactions</h3>
+                <div class="transaction_list">
+                    <p>add by js </p>
+                    <p>add by js </p>
+                    <p>add by js </p>
+                    <p>add by js </p>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="add_transaction">
+                <h3>Add Transaction</h3>
+                <div class="description">
+                    <label for="Full_description">Description</label>
+                    <input type="text" id="Full_description" placeholder="Enter description...." />
+                </div>
+                <div class="Amount">
+                    <label for="Total_amount">Amount</label>
+                    <input type="text" id="Total_amount" placeholder="Enter Amount...." />
+                    <p>Use negative (-) for expenses</p>
+                    <button type="button" class="add">Add Transaction</button>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

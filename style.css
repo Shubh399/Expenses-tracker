@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background: linear-gradient(135deg, #2e8b57, #a8d5ba);
+  min-width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border-radius: 1rem;
+  width: 95vw;
+  height: 95vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top {
+  width: 90vw;
+  height: 60vh;
+}
+.head {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sheet {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  background: linear-gradient(180deg, #a8d5ba, green);
+}
+.balance {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.balance_sheet {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.income {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  justify-content: center;
+  color: #2e8b57;
+  height: 11vh;
+  border-radius: 1rem;
+  background-color: aliceblue;
+}
+.expenses {
+  align-items: center;
+  display: flex;
+  color: red;
+  flex-direction: column;
+  width: 40vw;
+  height: 11vh;
+  border-radius: 1rem;
+  justify-content: center;
+  background-color: white;
+}
+.bottom {
+  width: 90vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 45vw;
+  height: 50vh;
+}
+.right {
+  /* border: 2px solid black; */
+  border-radius: 1rem;
+  display: flex;
+  background-color: rgb(242, 246, 246);
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 45vw;
+  height: 50vh;
+  padding: 1rem;
+}
+.description {
+  margin: 0.25rem;
+  height: 10vh;
+  width: 45vw;
+  font: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.description input {
+  width: 40vw;
+  height: 3vw;
+  border-radius: 0.25rem;
+  padding: 10px;
+  font-size: 1rem;
+  margin: 0.25rem;
+}
+.Amount {
+  margin: 0.25rem;
+  height: 30vh;
+  width: 45vw;
+  font: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.Amount input {
+ width: 40vw;
+  height: 3vw;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  padding: 10px;
+  margin: 0.25rem;
+}
+.Amount P {
+  font-size: 13px;
+  margin: 0.25rem;
+}
+.add {
+  width: 40vw;
+  background-color: #2e8b57;
+  height: 6vh;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
