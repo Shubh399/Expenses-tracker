@@ -107,6 +107,24 @@ body {
   height: 50vh;
   padding: 1rem;
 }
+.transaction_head{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+width:45vw ;
+height: 10vh;
+justify-content: space-between;
+}
+.transaction img {
+  width: 2rem;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.transaction_list{
+display: flex;
+flex-direction: row;
+
+}
 .description {
   margin: 0.25rem;
   height: 10vh;
@@ -132,7 +150,7 @@ body {
   flex-direction: column;
 }
 .Amount input {
- width: 40vw;
+  width: 40vw;
   height: 3vw;
   font-size: 1rem;
   border-radius: 0.25rem;
@@ -143,10 +161,20 @@ body {
   font-size: 13px;
   margin: 0.25rem;
 }
+.Amount button {
+  cursor: pointer;
+}
 .add {
   width: 40vw;
   background-color: #2e8b57;
   height: 6vh;
   border-radius: 0.5rem;
   margin: 1rem;
+}
+
+.transaction_list ul li {
+  text-decoration: none;
+  text-overflow: clip;
+  margin: 0.25rem 0.25rem 0.5rem 0.5rem;
+  padding: 0.25rem 0.25rem 0.5rem 0.5rem;
 }
